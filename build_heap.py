@@ -72,7 +72,7 @@ def main():
     elif 'F' in text:
         name = input()
         if not 'a' in name: 
-            name = "test/"+name
+            name = "tests/"+name
             f = open(name, "r")
             n = int(f.readline())
             data = list(map(int,f.readline().split()))
